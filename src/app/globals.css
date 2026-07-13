@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  /* Typography */
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  /* Black family */
+  --color-brand-black: #0A0A0A;
+  --color-brand-black-soft: #111111;
+  --color-brand-muted: #3D3D3D;
+
+  /* White family */
+  --color-brand-white: #FFFFFF;
+  --color-brand-off-white: #F7F7F7;
+  --color-brand-border: #EFEFEF;
+
+  /* Blue family — used sparingly */
+  --color-brand-blue: #0047AB;
+  --color-brand-blue-light: #E8F0FE;
+  --color-brand-blue-hover: #003585;
+
+  /* Animations */
+  --animate-marquee: marquee 35s linear infinite;
+  --animate-marquee-slow: marquee 50s linear infinite;
+
+  @keyframes marquee {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+}

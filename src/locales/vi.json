@@ -1,0 +1,190 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "services": "Dịch vụ",
+    "projects": "Dự án",
+    "about": "Về chúng tôi",
+    "blog": "Blog",
+    "requestConsultation": "Nhận tư vấn"
+  },
+  "megaMenu": {
+    "website": {
+      "title": "Website Design & Development",
+      "desc": "Chúng tôi thiết kế và xây dựng các trang web hiện đại, hiệu suất cao giúp chuyển đổi khách truy cập thành khách hàng — từ landing page đến nền tảng kinh doanh."
+    },
+    "automation": {
+      "title": "Automation Tools",
+      "desc": "Công cụ và quy trình tùy chỉnh giúp loại bỏ các tác vụ lặp đi lặp lại — để đội ngũ của bạn tập trung phát triển kinh doanh."
+    },
+    "social": {
+      "title": "Facebook Page Management",
+      "desc": "Chiến lược nội dung, đăng bài nhất quán và quản lý cộng đồng giúp xây dựng niềm tin và thúc đẩy tương tác."
+    }
+  },
+  "projectsPage": {
+    "title": "DỰ ÁN CỦA CHÚNG TÔI",
+    "desc": "SERN Vietnam là đối tác chiến lược của nhiều doanh nghiệp Việt Nam và toàn cầu để xây dựng các giải pháp kỹ thuật số, tạo ra sự phát triển kinh doanh bền vững.",
+    "filters": {
+      "all": "Tất cả dự án",
+      "website": "Website",
+      "tools": "Công cụ (Tools)",
+      "fanpages": "Fan Pages"
+    },
+    "emptyState": {
+      "title": "Chưa có dự án nào",
+      "desc": "Các dự án mới sẽ xuất hiện ở đây khi chúng tôi cập nhật."
+    }
+  },
+  "hero": {
+    "eyebrow": "Phát triển Website & Tự động hóa Kỹ thuật số",
+    "title1": "STRATEGIC",
+    "title2": "ECOSYSTEM",
+    "title2_sub": "FOR",
+    "title3": "REVENUE",
+    "title4": "NETWORK",
+    "valueProp": "Chúng tôi thiết kế website, xây dựng công cụ tự động hóa, và quản lý truyền thông mạng xã hội — để các doanh nghiệp Việt Nam phát triển mà không bị gánh nặng chi phí.",
+    "cta1": "Nhận tư vấn",
+    "cta2": "Xem các dự án →",
+    "trustedBy": "Được tin tưởng bởi các doanh nghiệp trên khắp Việt Nam"
+  },
+  "marquee": {
+    "row1": [
+      "THIẾT KẾ WEBSITE", "LANDING PAGE", "ỨNG DỤNG WEB", "WEBSITE DOANH NGHIỆP", 
+      "THƯƠNG MẠI ĐIỆN TỬ", "THIẾT KẾ UI/UX", "XÂY DỰNG THƯƠNG HIỆU", "TỐI ƯU SEO"
+    ],
+    "row2": [
+      "CÔNG CỤ TỰ ĐỘNG HÓA", "QUY TRÌNH LÀM VIỆC", "TÍCH HỢP API", "FANPAGE FACEBOOK", 
+      "CHIẾN LƯỢC NỘI DUNG", "SÁNG TẠO QUẢNG CÁO", "XỬ LÝ DỮ LIỆU", "CÔNG CỤ TÙY CHỈNH"
+    ]
+  },
+  "servicesSection": {
+    "eyebrow": "Chúng Tôi Làm Gì",
+    "title": "GIẢI PHÁP SỐ MANG LẠI KẾT QUẢ THỰC TẾ"
+  },
+  "services": {
+    "website": {
+      "title": "Thiết kế & Phát triển Website",
+      "description": "Chúng tôi thiết kế và xây dựng các trang web hiện đại, hiệu suất cao giúp chuyển đổi khách truy cập thành khách hàng — từ trang đích đến nền tảng doanh nghiệp hoàn chỉnh.",
+      "tags": ["Landing Page", "Website Doanh Nghiệp", "Thương Mại Điện Tử", "Ứng Dụng Web"]
+    },
+    "automation": {
+      "title": "Công cụ & Phần mềm Tự động",
+      "description": "Các công cụ và quy trình tùy chỉnh giúp loại bỏ các tác vụ lặp đi lặp lại — để nhóm của bạn có thời gian tập trung vào việc thực sự phát triển doanh nghiệp.",
+      "tags": ["Tự Động Hóa Quy Trình", "Xử Lý Dữ Liệu", "Tích Hợp API", "Công Cụ Tùy Chỉnh"]
+    },
+    "social": {
+      "title": "Quản lý & Chăm sóc Fanpage",
+      "description": "Chiến lược nội dung, đăng bài nhất quán và quản lý cộng đồng giúp xây dựng niềm tin của khán giả và thúc đẩy tương tác có thể đo lường được.",
+      "tags": ["Chiến Lược Nội Dung", "Lên Lịch Đăng Bài", "Quản Lý Cộng Đồng", "Sáng Tạo Quảng Cáo"]
+    }
+  },
+  "projectsSection": {
+    "eyebrow": "Dự Án Của Chúng Tôi",
+    "title1": "CÁC DỰ ÁN",
+    "title2": "TIÊU BIỂU",
+    "cta": "Xem tất cả dự án →"
+  },
+  "testimonials": {
+    "eyebrow": "Đánh giá của khách hàng",
+    "title1": "KHÁCH HÀNG",
+    "title2": "NÓI GÌ",
+    "quotes": {
+      "1": {
+        "quote": "Họ đã bàn giao website nhanh hơn mong đợi và chất lượng vượt qua những gì chúng tôi hình dung. Khách hàng của chúng tôi nhận ra sự khác biệt ngay lập tức."
+      },
+      "2": {
+        "quote": "Công cụ tự động hóa họ xây dựng đã tiết kiệm cho đội ngũ của chúng tôi 3 giờ mỗi ngày. Chúng tôi không còn phải nhập dữ liệu thủ công và bắt đầu tập trung vào doanh số thực sự."
+      },
+      "3": {
+        "quote": "Fanpage Facebook của chúng tôi đã tăng từ 500 lên 4.000 người theo dõi trong 2 tháng. Nội dung họ tạo ra luôn nhất quán, đúng với hình ảnh thương hiệu và thực sự tạo ra lượng truy vấn mua hàng."
+      }
+    }
+  },
+  "contactSection": {
+    "eyebrow": "Liên hệ",
+    "title1": "BẠN CÓ",
+    "title2": "DỰ ÁN MỚI?",
+    "description": "Cho dù bạn cần một website mới, công cụ tự động hóa tùy chỉnh hay chiến lược truyền thông toàn diện, đội ngũ của chúng tôi luôn sẵn sàng giúp doanh nghiệp của bạn phát triển.",
+    "form": {
+      "name": "Họ và tên",
+      "email": "Email",
+      "phone": "Số điện thoại",
+      "company": "Công ty",
+      "interestedIn": "Tôi quan tâm đến...",
+      "budget": "Ngân sách dự án",
+      "message": "Nói cho chúng tôi biết về dự án của bạn",
+      "submit": "Gửi tin nhắn"
+    },
+    "info": {
+      "hq": "Trụ sở / Việt Nam",
+      "addressTitle": "ĐỊA CHỈ",
+      "address": "210 Bùi Văn Ba, Phường Tân Thuận Đông, Quận 7, TP. Hồ Chí Minh",
+      "hotlineTitle": "HOTLINE",
+      "inquiriesTitle": "HỖ TRỢ CHUNG",
+      "followTitle": "THEO DÕI CHÚNG TÔI"
+    },
+    "footerText": {
+      "copyright": "© 2024 CÔNG TY TNHH SERN VIỆT NAM | MST: 0123456789 - NGÀY CẤP: 01/01/2024",
+      "address": "ĐỊA CHỈ: 210 BÙI VĂN BA, PHƯỜNG TÂN THUẬN ĐÔNG, TP. HỒ CHÍ MINH | HOTLINE: +84 977 82 83 85"
+    }
+  },
+  "footer": {
+    "description": "Giải pháp số cho doanh nghiệp Việt Nam — website, công cụ tự động hóa và quản lý mạng xã hội mang lại hiệu quả thực sự.",
+    "quickLinks": "LIÊN KẾT NHANH",
+    "services": "DỊCH VỤ",
+    "connect": "KẾT NỐI",
+    "copyright": "© 2024 SERN Vietnam. Bảo lưu mọi quyền.",
+    "location": "TP. Hồ Chí Minh, Việt Nam"
+  },
+  "aboutPage": {
+    "title1": "SERN",
+    "title2": "VIỆT NAM",
+    "subtitle": "TRỞ THÀNH MỘT PHẦN THIẾT YẾU TRONG SỰ PHÁT TRIỂN CỦA DOANH NGHIỆP",
+    "description": "Phát triển giải pháp thương mại kỹ thuật số, đồng hành cùng doanh nghiệp tạo ra tác động trực tiếp đến marketing và tăng trưởng kinh doanh.",
+    "stats": "HƠN 30+ KHÁCH HÀNG VÀ ĐỐI TÁC TIN TƯỞNG CHÚNG TÔI",
+    "banner": {
+      "title": "XÂY DỰNG HẠ TẦNG KỸ THUẬT SỐ ĐỂ PHÁT TRIỂN BỀN VỮNG",
+      "description": "SERN Việt Nam giúp các doanh nghiệp xây dựng hệ thống kỹ thuật số nhằm nâng cao trải nghiệm khách hàng, tối ưu hóa hoạt động, tạo ra nền tảng tùy chỉnh và sử dụng công nghệ để giải quyết các thách thức kinh doanh thực tế."
+    },
+    "coreValue": {
+      "title": "GIÁ TRỊ CỐT LÕI",
+      "subtitle": "SERN Việt Nam đồng hành cùng doanh nghiệp tìm kiếm giải pháp, giải quyết vấn đề một cách triệt để và căn bản với tinh thần trách nhiệm cao.",
+      "values": {
+        "v1": {
+          "title": "Tiên phong",
+          "desc": "SERN Việt Nam tiên phong trong việc nghiên cứu, phát triển và ứng dụng các công nghệ mới tốt hơn. Chúng tôi không ngừng cải tiến và mang đến những sản phẩm tốt hơn cho khách hàng."
+        },
+        "v2": {
+          "title": "Lấy khách hàng làm trung tâm",
+          "desc": "SERN Việt Nam luôn đồng hành cùng khách hàng, lấy nhu cầu và trăn trở của khách hàng làm kim chỉ nam để thấu hiểu và đưa ra giải pháp tối ưu nhất."
+        },
+        "v3": {
+          "title": "Sáng tạo",
+          "desc": "SERN Việt Nam chú trọng vào sự sáng tạo vì đây là chìa khóa cho sự đổi mới của doanh nghiệp, giúp doanh nghiệp nổi bật so với các đối thủ cạnh tranh."
+        },
+        "v4": {
+          "title": "Trách nhiệm",
+          "desc": "Với tinh thần trách nhiệm cao đối với từng dự án, đối tác và khách hàng, SERN Việt Nam cam kết thực hiện đầy đủ và hoàn thành xuất sắc mọi nhiệm vụ."
+        }
+      }
+    }
+  },
+  "servicePage": {
+    "notFound": "Không tìm thấy dịch vụ.",
+    "backHome": "← Về trang chủ",
+    "eyebrow": "DỊCH VỤ CỦA SERN -",
+    "contactCta": "Liên hệ tư vấn",
+    "capabilities": "NĂNG LỰC",
+    "capabilitiesSub": "CỦA SERN",
+    "solutions": "GIẢI PHÁP",
+    "banner": {
+      "title1": "BẠN ĐÃ SẴN SÀNG",
+      "title2": "CHUẨN HÓA VẬN HÀNH",
+      "title3": "CÙNG SERN?",
+      "cta": "NHẬN TƯ VẤN"
+    },
+    "process": "QUY TRÌNH",
+    "processSub": "LÀM VIỆC",
+    "faq": "CÂU HỎI THƯỜNG GẶP"
+  }
+}

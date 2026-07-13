@@ -1,0 +1,190 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About Us",
+    "blog": "Blog",
+    "requestConsultation": "Request Consultation"
+  },
+  "megaMenu": {
+    "website": {
+      "title": "Website Design & Development",
+      "desc": "We design and build modern, high-performance websites that convert visitors into customers — from landing pages to full business platforms."
+    },
+    "automation": {
+      "title": "Automation Tools",
+      "desc": "Custom tools and workflows that eliminate repetitive tasks — so your team spends time on what actually grows the business."
+    },
+    "social": {
+      "title": "Facebook Page Management",
+      "desc": "Strategic content, consistent posting, and community management that builds real audience trust and drives measurable engagement."
+    }
+  },
+  "projectsPage": {
+    "title": "OUR PROJECTS",
+    "desc": "SERN Vietnam is a strategic partner of many Vietnamese and global businesses to build digital solutions, creating sustainable business growth.",
+    "filters": {
+      "all": "All Projects",
+      "website": "Website",
+      "tools": "Tools",
+      "fanpages": "Fan Pages"
+    },
+    "emptyState": {
+      "title": "No project yet",
+      "desc": "Any new projects will appear here when we update."
+    }
+  },
+  "hero": {
+    "eyebrow": "Web Development & Digital Automation Agency",
+    "title1": "STRATEGIC",
+    "title2": "ECOSYSTEM",
+    "title2_sub": "FOR",
+    "title3": "REVENUE",
+    "title4": "NETWORK",
+    "valueProp": "We design websites, build automation tools, and manage social media — so Vietnamese businesses can grow without the overhead.",
+    "cta1": "Request Consultation",
+    "cta2": "View Projects →",
+    "trustedBy": "Trusted by businesses across Vietnam"
+  },
+  "marquee": {
+    "row1": [
+      "WEBSITE DESIGN", "LANDING PAGE", "WEB APP", "CORPORATE SITE", 
+      "E-COMMERCE", "UI/UX DESIGN", "BRANDING", "SEO OPTIMIZATION"
+    ],
+    "row2": [
+      "AUTOMATION TOOL", "WORKFLOW", "API INTEGRATION", "FACEBOOK PAGE", 
+      "CONTENT STRATEGY", "AD CREATIVE", "DATA PROCESSING", "CUSTOM TOOL"
+    ]
+  },
+  "servicesSection": {
+    "eyebrow": "What We Do",
+    "title": "DIGITAL SOLUTIONS BUILT FOR RESULTS"
+  },
+  "services": {
+    "website": {
+      "title": "Website Design & Development",
+      "description": "We design and build modern, high-performance websites that convert visitors into customers — from landing pages to full business platforms.",
+      "tags": ["Landing Page", "Corporate Site", "E-Commerce", "Web App"]
+    },
+    "automation": {
+      "title": "Automation Tools",
+      "description": "Custom tools and workflows that eliminate repetitive tasks — so your team spends time on what actually grows the business.",
+      "tags": ["Workflow Automation", "Data Processing", "API Integration", "Custom Tools"]
+    },
+    "social": {
+      "title": "Facebook Page Management",
+      "description": "Strategic content, consistent posting, and community management that builds real audience trust and drives measurable engagement.",
+      "tags": ["Content Strategy", "Post Scheduling", "Community Management", "Ad Creative"]
+    }
+  },
+  "projectsSection": {
+    "eyebrow": "Our Work",
+    "title1": "SELECTED",
+    "title2": "PROJECTS",
+    "cta": "See all projects →"
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "title1": "WHAT OUR",
+    "title2": "CLIENTS SAY",
+    "quotes": {
+      "1": {
+        "quote": "They delivered our website faster than expected and the quality exceeded what we had envisioned. Our customers noticed the difference immediately."
+      },
+      "2": {
+        "quote": "The automation tool they built saved our team 3 hours every day. We stopped doing manual data entry and started focusing on actual sales."
+      },
+      "3": {
+        "quote": "Our Facebook page went from 500 to 4,000 followers in two months. The content they produce is consistent, on-brand, and actually drives inquiries."
+      }
+    }
+  },
+  "contactSection": {
+    "eyebrow": "Get in touch",
+    "title1": "HAVE A",
+    "title2": "PROJECT?",
+    "description": "Whether you need a new website, custom automation tools, or a full social media strategy, our team is ready to help your business scale.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "company": "Company",
+      "interestedIn": "I'm interested in...",
+      "budget": "Project budget",
+      "message": "Tell us about your project",
+      "submit": "Send Message"
+    },
+    "info": {
+      "hq": "HQ / Vietnam",
+      "addressTitle": "ADDRESS",
+      "address": "210 Bui Van Ba, Tan Thuan Dong Ward, District 7, Ho Chi Minh City",
+      "hotlineTitle": "HOTLINE",
+      "inquiriesTitle": "GENERAL INQUIRIES",
+      "followTitle": "FOLLOW US"
+    },
+    "footerText": {
+      "copyright": "© 2024 SERN VIETNAM CO., LTD. | MST: 0123456789 - ISSUED DATE: 01/01/2024",
+      "address": "ADDRESS: 210 BUI VAN BA, TAN THUAN WARD, HO CHI MINH CITY | HOTLINE: +84 977 82 83 85"
+    }
+  },
+  "footer": {
+    "description": "Digital solutions for Vietnamese businesses — websites, automation tools, and social media management that actually move the needle.",
+    "quickLinks": "QUICK LINKS",
+    "services": "SERVICES",
+    "connect": "CONNECT",
+    "copyright": "© 2024 SERN Vietnam. All rights reserved.",
+    "location": "Ho Chi Minh City, Vietnam"
+  },
+  "aboutPage": {
+    "title1": "SERN",
+    "title2": "VIETNAM",
+    "subtitle": "TO BE AN ESSENTIAL PART OF BUSINESS GROWTH",
+    "description": "Developing a digital commerce solution, accompanying with enterprises to create direct impacts on marketing and business growth.",
+    "stats": "30+ CUSTOMERS AND PARTNERS TRUST US",
+    "banner": {
+      "title": "BUILDING DIGITAL INFRASTRUCTURE FOR SUSTAINABLE GROWTH",
+      "description": "SERN Vietnam helps businesses build digital systems that enhance customer experience, streamline operations, create custom platforms, and use technology to solve real business challenges."
+    },
+    "coreValue": {
+      "title": "CORE VALUE",
+      "subtitle": "SERN Vietnam accompanies with enterprises to find out solutions, resolve issues thoroughly and fundamentally with a high sense of responsibility.",
+      "values": {
+        "v1": {
+          "title": "Pioneer",
+          "desc": "SERN Vietnam pioneers in research, development, and application of newly better technologies. We are continuously improving and bringing better products to our customers."
+        },
+        "v2": {
+          "title": "Customer-centric",
+          "desc": "SERN Vietnam always accompanies customers and takes customers' needs and worries as the compass to understand and provide optimal solutions."
+        },
+        "v3": {
+          "title": "Creative",
+          "desc": "SERN Vietnam focuses on creativity because this is the key to business innovation, helping businesses stand out from their competitors."
+        },
+        "v4": {
+          "title": "Responsible",
+          "desc": "With a strong sense of responsibility towards every project, partner and client, SERN Vietnam commits to fully executing and excellently accomplishing all tasks."
+        }
+      }
+    }
+  },
+  "servicePage": {
+    "notFound": "Service not found.",
+    "backHome": "← Back to home",
+    "eyebrow": "SERN'S SERVICES -",
+    "contactCta": "Contact For Consultation",
+    "capabilities": "SERN'S",
+    "capabilitiesSub": "CAPABILITIES",
+    "solutions": "SOLUTIONS",
+    "banner": {
+      "title1": "ARE YOU READY TO",
+      "title2": "STANDARDIZE OPERATIONS",
+      "title3": "WITH SERN?",
+      "cta": "REQUEST CONSULTATION"
+    },
+    "process": "OUR WORKING",
+    "processSub": "PROCESS",
+    "faq": "FREQUENTLY ASKED QUESTIONS"
+  }
+}
