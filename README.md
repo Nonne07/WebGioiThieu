@@ -1,32 +1,49 @@
-# React + TypeScript + Vite
+# B2B Ecosystem
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This is a modern web application built with **Next.js 16**, **React 19**, **TypeScript**, and **Tailwind CSS**. It includes internationalization (next-intl) and animations (Framer Motion).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Getting Started
 
-## React Compiler
+If you have just downloaded or cloned this repository, follow these steps to run the project on your local machine.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your computer.
 
-## Expanding the Oxlint configuration
+### 2. Install Dependencies
+Since the `node_modules` folder is not included in the repository (to save space), you need to download the required packages. Open your terminal in the project folder and run:
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```bash
+npm install
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+### 3. Start the Development Server
+Once the installation is complete, you can start the local development server:
+
+```bash
+npm run dev
+```
+
+### 4. Open the App
+Open your browser and navigate to:
+[http://localhost:3000](http://localhost:3000)
+
+The page will automatically update as you edit the files in the `src/` directory.
+
+---
+
+## 📁 Project Structure Overview
+
+- **`src/app/`**: The Next.js App Router. Contains the main pages and layouts.
+- **`src/components/`**: Reusable React components.
+- **`src/data/`**: Static data files (e.g., projects, services, news).
+- **`src/locales/`**: JSON files for language translations (e.g., English, Vietnamese).
+- **`public/`**: Static assets like images and icons.
+
+## 🛠️ Available Commands
+
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the app for production deployment.
+- `npm run start`: Runs the built production application.
+- `npm run lint`: Runs code analysis to find errors.
