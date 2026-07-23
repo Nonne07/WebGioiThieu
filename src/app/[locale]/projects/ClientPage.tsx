@@ -105,47 +105,70 @@ export default function ProjectsPage() {
               </div>
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                {displayedProjects.map((project) => (
-                  <Link
-                    key={project.id}
-                    href={`/projects/${project.slug}`}
-                    className="group flex flex-col h-full bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-brand-border hover:border-brand-primary hover:shadow-[0_8px_30px_rgba(255,90,0,0.12)] hover:-translate-y-1 transition-all duration-300"
-                  >
-                    {/* Image Placeholder Container */}
-                    <div className="aspect-[4/3] bg-[#f5f5f7] overflow-hidden relative border-b border-brand-border/50">
-                      {project.coverImage ? (
-                        <img 
-                          src={project.coverImage} 
-                          alt={project.title}
-                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out opacity-90 group-hover:opacity-100"
-                        />
-                      ) : (
-                        <div className="absolute inset-0 flex items-center justify-center opacity-40 group-hover:scale-105 transition-transform duration-700 ease-out">
-                          <span className="text-brand-muted text-xs uppercase tracking-widest font-bold">
-                            {project.title} Thumbnail
-                          </span>
-                        </div>
-                      )}
-                    </div>
-
-                    {/* Info */}
-                    <div className="p-8 flex flex-col gap-4 flex-1">
-                      <h3 className="text-lg font-black text-brand-black transition-colors group-hover:text-brand-primary uppercase">
-                        {project.title}
-                      </h3>
-                      <div className="flex flex-wrap gap-2">
-                        {project.tags.map(tag => (
-                          <span
-                            key={tag}
-                            className="text-xs font-semibold text-brand-muted/70 bg-[#f5f5f7] px-3 py-1 rounded-full group-hover:bg-[#FFF4ED] group-hover:text-brand-primary transition-colors"
-                          >
-                            {tag}
-                          </span>
-                        ))}
+                {displayedProjects.map((project) => {
+                  const isExternal = project.url && project.url !== '#';
+                  const cardContent = (
+                    <>
+                      {/* Image Placeholder Container */}
+                      <div className="aspect-[4/3] bg-[#f5f5f7] overflow-hidden relative border-b border-brand-border/50">
+                        {project.coverImage ? (
+                          <img 
+                            src={project.coverImage} 
+                            alt={project.title}
+                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out opacity-90 group-hover:opacity-100"
+                          />
+                        ) : (
+                          <div className="absolute inset-0 flex items-center justify-center opacity-40 group-hover:scale-105 transition-transform duration-700 ease-out">
+                            <span className="text-brand-muted text-xs uppercase tracking-widest font-bold">
+                              {project.title} Thumbnail
+                            </span>
+                          </div>
+                        )}
                       </div>
-                    </div>
-                  </Link>
-                ))}
+
+                      {/* Info */}
+                      <div className="p-8 flex flex-col gap-4 flex-1">
+                        <h3 className="text-lg font-black text-brand-black transition-colors group-hover:text-brand-primary uppercase">
+                          {project.title}
+                        </h3>
+                        <div className="flex flex-wrap gap-2">
+                          {project.tags.map(tag => (
+                            <span
+                              key={tag}
+                              className="text-xs font-semibold text-brand-muted/70 bg-[#f5f5f7] px-3 py-1 rounded-full group-hover:bg-[#FFF4ED] group-hover:text-brand-primary transition-colors"
+                            >
+                              {tag}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    </>
+                  );
+
+                  if (isExternal) {
+                    return (
+                      <a
+                        key={project.id}
+                        href={project.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group flex flex-col h-full bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-brand-border hover:border-brand-primary hover:shadow-[0_8px_30px_rgba(255,90,0,0.12)] hover:-translate-y-1 transition-all duration-300"
+                      >
+                        {cardContent}
+                      </a>
+                    );
+                  }
+
+                  return (
+                    <Link
+                      key={project.id}
+                      href={`/projects/${project.slug}`}
+                      className="group flex flex-col h-full bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-brand-border hover:border-brand-primary hover:shadow-[0_8px_30px_rgba(255,90,0,0.12)] hover:-translate-y-1 transition-all duration-300"
+                    >
+                      {cardContent}
+                    </Link>
+                  );
+                })}
               </div>
             )}
 

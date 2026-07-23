@@ -3,32 +3,30 @@ import type { Project } from '../types'
 export const projects: Project[] = [
   {
     id: '1',
-    slug: 'brand-a-store',
-    title: 'Brand A Store',
-    tags: ['B2B', 'Tools', 'Industry'],
-    url: '#',
-    clientName: 'Brand A Corp',
-    description: 'We developed a comprehensive B2B eCommerce platform for Brand A, modernizing their legacy systems and creating a seamless ordering experience for their wholesale partners.',
-    coverImage: '/handshake.png',
+    slug: 'ictc-e-learning',
+    title: 'ICTC E-learning',
+    tags: ['Website', 'Tools', 'Education'],
+    url: 'https://elearning.ictc.edu.vn',
+    clientName: 'ICTC',
+    description: 'Nền tảng học trực tuyến E-learning của ICTC, mang lại trải nghiệm học tập hiện đại và liền mạch.',
+    coverImage: '/ictc-elearning.png',
     servicesProvided: ['Web Development', 'UI/UX Design', 'System Integration'],
     metrics: [
-      { label: 'Increase in Sales', value: '+45%' },
-      { label: 'Order Process Time', value: '-60%' }
+      { label: 'Active Users', value: '+45%' }
     ],
-    gallery: ['/handshake.png', '/handshake.png']
+    gallery: ['/ictc-elearning.png']
   },
   {
     id: '2',
-    slug: 'brand-b-kitchen',
-    title: 'Brand B Kitchen',
-    tags: ['B2C', 'Website', 'Retail'],
-    url: '#',
-    clientName: 'Brand B Retails',
-    description: 'A vibrant, highly-converting D2C website for a premium kitchenware brand. Focused on high-quality visuals and a frictionless checkout process.',
-    coverImage: '/handshake.png',
-    servicesProvided: ['Shopify Development', 'Brand Identity', 'Conversion Rate Optimization'],
+    slug: 'ictc-homepage',
+    title: 'ICTC Trang chủ',
+    tags: ['Website', 'Education'],
+    url: 'https://ictc.edu.vn/',
+    clientName: 'ICTC',
+    description: 'Website trang chủ chính thức của trung tâm ICTC, giới thiệu thông tin đào tạo và tuyển sinh.',
+    coverImage: '/ictc-logo.png',
+    servicesProvided: ['Web Development', 'UI/UX Design', 'SEO'],
     metrics: [
-      { label: 'Conversion Rate', value: '3.2%' },
       { label: 'Mobile Traffic', value: '+85%' }
     ]
   },
