@@ -12,7 +12,7 @@ export default function ServicesSection() {
   const t = useTranslations()
 
   return (
-    <section id="services" className="bg-brand-black py-28 px-6">
+    <section id="services" className="bg-[#f5f5f7] py-28 px-6">
       <div className="max-w-7xl mx-auto">
 
         {/* Header */}
@@ -23,17 +23,18 @@ export default function ServicesSection() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         >
-          <p className="text-brand-blue text-xs font-semibold tracking-[0.25em] uppercase mb-4">
+          <p className="text-brand-primary text-xs font-bold tracking-[0.25em] uppercase mb-4 flex items-center gap-2">
+            <span className="w-8 h-px bg-brand-primary"></span>
             {t('servicesSection.eyebrow')}
           </p>
-          <h2 className="text-4xl sm:text-5xl font-black text-brand-white uppercase leading-tight tracking-tight max-w-xl">
+          <h2 className="text-4xl sm:text-5xl font-black text-brand-black uppercase leading-tight tracking-tight max-w-xl">
             {t('servicesSection.title')}
           </h2>
         </motion.div>
 
-        {/* Icon grid — Jamstack style */}
+        {/* Icon grid */}
         <motion.div 
-          className="grid grid-cols-1 sm:grid-cols-3 gap-px bg-white/5"
+          className="grid grid-cols-1 sm:grid-cols-3 gap-8"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
@@ -54,28 +55,29 @@ export default function ServicesSection() {
                   hidden: { opacity: 0, y: 40 },
                   visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] } }
                 }}
+                className="h-full"
               >
-                <Link href={`/services/${slug}`} className="group flex flex-col gap-5 p-8 bg-brand-black hover:bg-white/5 transition-colors duration-200 h-full">
+                <Link href={`/services/${slug}`} className="group flex flex-col gap-6 p-10 bg-white rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-brand-border hover:border-brand-primary hover:shadow-[0_8px_30px_rgba(255,90,0,0.12)] hover:-translate-y-1 transition-all duration-300 h-full">
                   {/* Icon */}
-                  <div className="w-12 h-12 border border-white/10 flex items-center justify-center group-hover:border-brand-blue transition-colors duration-200">
-                    <Icon size={20} className="text-white/40 group-hover:text-brand-blue transition-colors duration-200" />
+                  <div className="w-14 h-14 bg-[#FFF4ED] rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:bg-brand-primary transition-all duration-300 shadow-sm">
+                    <Icon size={26} className="text-brand-primary group-hover:text-white transition-colors duration-300" />
                   </div>
 
                   {/* Title */}
-                  <h3 className="text-base font-black text-brand-white uppercase tracking-tight leading-snug">
+                  <h3 className="text-lg font-black text-brand-black uppercase tracking-tight leading-snug group-hover:text-brand-primary transition-colors">
                     {t(`services.${service.id}.title`)}
                   </h3>
 
                   {/* Description */}
-                  <p className="text-white/40 text-sm leading-relaxed flex-1">
+                  <p className="text-brand-muted text-sm leading-relaxed flex-1 font-medium">
                     {t(`services.${service.id}.description`)}
                   </p>
 
                   {/* Tags */}
-                  <div className="flex flex-wrap gap-1.5 pt-2 border-t border-white/5 mt-auto">
+                  <div className="flex flex-wrap gap-2 pt-4 border-t border-brand-border mt-auto">
                     {tags.map((tag: string) => (
-                      <span key={tag} className="text-white/25 text-xs">
-                        {tag} ·
+                      <span key={tag} className="text-brand-muted/70 text-xs font-semibold bg-[#f5f5f7] px-3 py-1 rounded-full group-hover:bg-[#FFF4ED] group-hover:text-brand-primary transition-colors">
+                        {tag}
                       </span>
                     ))}
                   </div>

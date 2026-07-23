@@ -11,7 +11,7 @@ export default function TestimonialsSection() {
 
         {/* Header */}
         <div className="mb-16">
-          <p className="text-brand-blue text-xs font-semibold tracking-[0.25em] uppercase mb-4">
+          <p className="text-brand-primary text-xs font-semibold tracking-[0.25em] uppercase mb-4">
             {t('testimonials.eyebrow')}
           </p>
           <h2 className="text-4xl sm:text-5xl font-black text-brand-white uppercase tracking-tight leading-tight">
@@ -25,7 +25,7 @@ export default function TestimonialsSection() {
             <div key={tItem.id} className="bg-brand-black p-8 flex flex-col gap-6 hover:bg-white/5 transition-colors duration-200">
 
               {/* Quote mark */}
-              <span className="text-brand-blue text-5xl font-black leading-none select-none">"</span>
+              <span className="text-brand-primary text-5xl font-black leading-none select-none">"</span>
 
               {/* Quote */}
               <p className="text-white/60 text-sm leading-relaxed flex-1">

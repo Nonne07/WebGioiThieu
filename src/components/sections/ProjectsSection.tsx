@@ -9,7 +9,7 @@ export default function ProjectsSection() {
   const displayProjects = projects.slice(0, 4)
 
   return (
-    <section id="projects" className="bg-brand-white py-28 px-6">
+    <section id="projects" className="bg-white py-28 px-6">
       <div className="max-w-7xl mx-auto">
         
         {/* Header */}
@@ -21,7 +21,8 @@ export default function ProjectsSection() {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         >
           <div>
-            <p className="text-brand-blue text-xs font-semibold tracking-[0.25em] uppercase mb-4">
+            <p className="text-brand-primary text-xs font-bold tracking-[0.25em] uppercase mb-4 flex items-center gap-2">
+              <span className="w-8 h-px bg-brand-primary"></span>
               {t('projectsSection.eyebrow')}
             </p>
             <h2 className="text-4xl sm:text-5xl font-black text-brand-black uppercase tracking-tight leading-none">
@@ -30,7 +31,7 @@ export default function ProjectsSection() {
           </div>
           <Link
             href="/projects"
-            className="self-start sm:self-auto text-sm font-semibold text-brand-muted hover:text-brand-blue transition-colors"
+            className="self-start sm:self-auto text-sm font-bold text-brand-black hover:text-brand-primary bg-[#f5f5f7] hover:bg-[#FFF4ED] px-6 py-3 rounded-full transition-colors shadow-sm"
           >
             {t('projectsSection.cta')}
           </Link>
@@ -38,7 +39,7 @@ export default function ProjectsSection() {
 
         {/* Grid */}
         <motion.div 
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-brand-border"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
@@ -58,37 +59,37 @@ export default function ProjectsSection() {
             >
               <Link
                 href={`/projects/${project.slug}`}
-                className="group bg-brand-white flex flex-col h-full hover:bg-brand-off-white transition-colors duration-200"
+                className="group flex flex-col h-full bg-white rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-brand-border hover:border-brand-primary hover:shadow-[0_8px_30px_rgba(255,90,0,0.12)] hover:-translate-y-1 transition-all duration-300"
               >
                 {/* Thumbnail placeholder */}
-                <div className="aspect-[4/3] bg-brand-off-white overflow-hidden relative">
+                <div className="aspect-[4/3] bg-[#f5f5f7] overflow-hidden relative">
                   {project.coverImage ? (
                     <img 
                       src={project.coverImage} 
                       alt={project.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90 group-hover:opacity-100"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out opacity-90 group-hover:opacity-100"
                     />
                   ) : (
-                    <div className="absolute inset-0 flex items-center justify-center opacity-30 group-hover:scale-105 transition-transform duration-500">
-                      <span className="text-brand-border text-xs uppercase tracking-widest font-semibold">
+                    <div className="absolute inset-0 flex items-center justify-center opacity-40 group-hover:scale-105 transition-transform duration-700 ease-out">
+                      <span className="text-brand-muted text-xs uppercase tracking-widest font-bold">
                         {project.title} Thumbnail
                       </span>
                     </div>
                   )}
                   {/* Hover overlay */}
-                  <div className="absolute inset-0 bg-brand-blue opacity-0 group-hover:opacity-10 transition-opacity duration-300 pointer-events-none" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-brand-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
                 </div>
 
               {/* Info */}
-              <div className="p-6 flex flex-col gap-3 flex-1">
-                <h3 className="text-base font-black text-brand-black uppercase tracking-tight group-hover:text-brand-blue transition-colors">
+              <div className="p-8 flex flex-col gap-4 flex-1">
+                <h3 className="text-lg font-black text-brand-black uppercase tracking-tight group-hover:text-brand-primary transition-colors">
                   {project.title}
                 </h3>
-                <div className="flex flex-wrap gap-1.5">
+                <div className="flex flex-wrap gap-2">
                   {project.tags.map(tag => (
                     <span
                       key={tag}
-                      className="text-xs font-medium text-brand-muted border border-brand-border px-2.5 py-0.5"
+                      className="text-xs font-semibold text-brand-muted/70 bg-[#f5f5f7] px-3 py-1 rounded-full group-hover:bg-[#FFF4ED] group-hover:text-brand-primary transition-colors"
                     >
                       {tag}
                     </span>

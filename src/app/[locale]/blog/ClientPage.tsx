@@ -42,10 +42,10 @@ export default function NewsPage() {
                 />
               </div>
               <div className="pt-6">
-                <span className="inline-block px-2 py-1 bg-brand-blue text-white text-[10px] font-bold uppercase tracking-widest mb-4">
+                <span className="inline-block px-2 py-1 bg-brand-primary text-white text-[10px] font-bold uppercase tracking-widest mb-4">
                   {topFeaturedNews.category}
                 </span>
-                <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 leading-tight group-hover:text-brand-blue transition-colors">
+                <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 leading-tight group-hover:text-brand-primary transition-colors">
                   {topFeaturedNews.title}
                 </h2>
                 <p className="text-white/60 text-sm leading-relaxed max-w-3xl">
@@ -73,10 +73,10 @@ export default function NewsPage() {
                     />
                   </div>
                   <div className="flex flex-col justify-center">
-                    <span className="inline-block px-1.5 py-0.5 bg-brand-blue text-white text-[9px] font-bold uppercase tracking-widest mb-2 w-fit">
+                    <span className="inline-block px-1.5 py-0.5 bg-brand-primary text-white text-[9px] font-bold uppercase tracking-widest mb-2 w-fit">
                       {news.category}
                     </span>
-                    <h3 className="text-sm font-bold text-white leading-tight group-hover:text-brand-blue transition-colors line-clamp-3">
+                    <h3 className="text-sm font-bold text-white leading-tight group-hover:text-brand-primary transition-colors line-clamp-3">
                       {news.title}
                     </h3>
                   </div>
@@ -109,7 +109,7 @@ export default function NewsPage() {
                 </div>
                 
                 {news.category !== 'SERN SEO' && (
-                   <span className="inline-block px-1.5 py-0.5 bg-brand-blue text-white text-[9px] font-bold uppercase tracking-widest mb-3 w-fit">
+                   <span className="inline-block px-1.5 py-0.5 bg-brand-primary text-white text-[9px] font-bold uppercase tracking-widest mb-3 w-fit">
                      {news.category}
                    </span>
                 )}
@@ -117,7 +117,7 @@ export default function NewsPage() {
                   <div className="h-6 mb-1" /> /* Spacer if no tag */
                 )}
 
-                <h3 className="text-lg sm:text-xl font-bold text-white mb-3 leading-tight group-hover:text-brand-blue transition-colors">
+                <h3 className="text-lg sm:text-xl font-bold text-white mb-3 leading-tight group-hover:text-brand-primary transition-colors">
                   {news.title}
                 </h3>
                 

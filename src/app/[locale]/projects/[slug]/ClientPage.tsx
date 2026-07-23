@@ -16,7 +16,7 @@ export default function ClientPage({ project }: { project: Project }) {
       <main className="pt-20 bg-brand-black min-h-screen text-white flex flex-col">
         {/* Back Button */}
         <div className="max-w-7xl w-full mx-auto px-6 py-6 flex-shrink-0">
-          <Link href="/projects" className="inline-flex items-center gap-2 text-white/50 hover:text-brand-blue transition-colors text-sm font-bold tracking-widest uppercase">
+          <Link href="/projects" className="inline-flex items-center gap-2 text-white/50 hover:text-brand-primary transition-colors text-sm font-bold tracking-widest uppercase">
             <ArrowLeft size={16} />
             Back to Projects
           </Link>
@@ -31,7 +31,7 @@ export default function ClientPage({ project }: { project: Project }) {
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
             {/* Robot Icon */}
-            <div className="relative mb-8 text-brand-blue">
+            <div className="relative mb-8 text-brand-primary">
               <Bot size={120} strokeWidth={1} className="opacity-80" />
               <div className="absolute top-0 right-0 p-2 bg-brand-black rounded-full border border-white/10 animate-bounce">
                 <Wrench size={32} className="text-sky-400" />
@@ -51,7 +51,7 @@ export default function ClientPage({ project }: { project: Project }) {
 
             <a
               href="#contact"
-              className="mt-10 inline-block px-8 py-3 bg-white/5 border border-white/10 hover:bg-brand-blue hover:border-brand-blue transition-colors font-bold uppercase tracking-widest text-sm"
+              className="mt-10 inline-block px-8 py-3 bg-white/5 border border-white/10 hover:bg-brand-primary hover:border-brand-primary transition-colors font-bold uppercase tracking-widest text-sm"
             >
               Get in Touch
             </a>

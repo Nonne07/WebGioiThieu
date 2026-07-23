@@ -6,7 +6,7 @@ export default function HeroVisual() {
     <div className="relative w-full h-[400px] sm:h-[500px] flex items-center justify-center lg:justify-end">
       
       {/* Decorative Glow */}
-      <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-64 h-64 bg-brand-blue/20 rounded-full blur-[80px] pointer-events-none" />
+      <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-64 h-64 bg-brand-primary/20 rounded-full blur-[80px] pointer-events-none" />
 
       {/* Code Window (Back) */}
       <motion.div 
@@ -41,7 +41,7 @@ export default function HeroVisual() {
         transition={{ duration: 0.8, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
       >
         <div className="flex justify-between items-center mb-6">
-          <div className="w-16 h-4 bg-brand-blue/30 rounded-full" />
+          <div className="w-16 h-4 bg-brand-primary/30 rounded-full" />
           <div className="flex gap-2">
             <div className="w-4 h-4 rounded-full bg-white/10" />
             <div className="w-4 h-4 rounded-full bg-white/10" />
@@ -52,9 +52,9 @@ export default function HeroVisual() {
           <div className="w-full h-24 bg-white/5 rounded-lg border border-white/5 flex items-center justify-center p-3">
             {/* Playful mini chart */}
             <div className="flex items-end gap-2 w-full h-full">
-              <motion.div className="w-full bg-brand-blue/40 rounded-sm" initial={{ height: '30%' }} animate={{ height: '50%' }} transition={{ repeat: Infinity, repeatType: 'mirror', duration: 1.5 }} />
-              <motion.div className="w-full bg-brand-blue/60 rounded-sm" initial={{ height: '50%' }} animate={{ height: '70%' }} transition={{ repeat: Infinity, repeatType: 'mirror', duration: 1.2, delay: 0.2 }} />
-              <motion.div className="w-full bg-brand-blue rounded-sm relative overflow-hidden" initial={{ height: '70%' }} animate={{ height: '100%' }} transition={{ repeat: Infinity, repeatType: 'mirror', duration: 1.8, delay: 0.4 }}>
+              <motion.div className="w-full bg-brand-primary/40 rounded-sm" initial={{ height: '30%' }} animate={{ height: '50%' }} transition={{ repeat: Infinity, repeatType: 'mirror', duration: 1.5 }} />
+              <motion.div className="w-full bg-brand-primary/60 rounded-sm" initial={{ height: '50%' }} animate={{ height: '70%' }} transition={{ repeat: Infinity, repeatType: 'mirror', duration: 1.2, delay: 0.2 }} />
+              <motion.div className="w-full bg-brand-primary rounded-sm relative overflow-hidden" initial={{ height: '70%' }} animate={{ height: '100%' }} transition={{ repeat: Infinity, repeatType: 'mirror', duration: 1.8, delay: 0.4 }}>
                 <div className="absolute inset-0 bg-gradient-to-t from-transparent to-white/20" />
               </motion.div>
             </div>

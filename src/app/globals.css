@@ -14,10 +14,10 @@
   --color-brand-off-white: #F7F7F7;
   --color-brand-border: #EFEFEF;
 
-  /* Blue family — used sparingly */
-  --color-brand-blue: #0047AB;
-  --color-brand-blue-light: #E8F0FE;
-  --color-brand-blue-hover: #003585;
+  /* Primary family (Orange) */
+  --color-brand-primary: #FF5A00;
+  --color-brand-primary-light: #FFF4ED;
+  --color-brand-primary-hover: #E04F00;
 
   /* Animations */
   --animate-marquee: marquee 35s linear infinite;
@@ -26,5 +26,17 @@
   @keyframes marquee {
     0%   { transform: translateX(0); }
     100% { transform: translateX(-50%); }
+  }
+}
+
+@layer base {
+  a, button {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+    transition-duration: 400ms;
+  }
+  
+  a:active, button:active {
+    transform: scale(0.98);
   }
 }
