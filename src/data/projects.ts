@@ -29,59 +29,5 @@ export const projects: Project[] = [
     metrics: [
       { label: 'Mobile Traffic', value: '+85%' }
     ]
-  },
-  {
-    id: '3',
-    slug: 'brand-c-logistics',
-    title: 'Brand C Logistics',
-    tags: ['B2B', 'Tools', 'Industry'],
-    url: '#',
-    clientName: 'Brand C Logistics LLC',
-    description: 'A custom fleet management and tracking dashboard built from the ground up to handle real-time data for over 500 active vehicles.',
-    coverImage: '/handshake.png',
-    servicesProvided: ['Custom Web App', 'API Development', 'Real-time Analytics'],
-    metrics: [
-      { label: 'Efficiency Gain', value: '+30%' }
-    ]
-  },
-  {
-    id: '4',
-    slug: 'brand-d-construction',
-    title: 'Brand D Construction',
-    tags: ['B2C', 'Website', 'Construction'],
-    url: '#',
-    clientName: 'Brand D Builders',
-    description: 'Corporate website redesign focusing on showcasing massive infrastructure projects through immersive 3D web experiences.',
-    coverImage: '/handshake.png',
-    servicesProvided: ['Web Development', '3D Modeling']
-  },
-  {
-    id: '5',
-    slug: 'brand-e-hospital',
-    title: 'Brand E Hospital',
-    tags: ['B2C', 'Tools', 'Hospital'],
-    url: '#'
-  },
-  {
-    id: '6',
-    slug: 'brand-f-media',
-    title: 'Brand F Media',
-    tags: ['B2B', 'Fan Pages', 'Social Media'],
-    url: '#'
-  },
-  {
-    id: '7',
-    slug: 'brand-g-tech',
-    title: 'Brand G Tech',
-    tags: ['B2C', 'Website', 'Technology'],
-    url: '#'
-  },
-  {
-    id: '8',
-    slug: 'brand-h-bakery',
-    title: 'Brand H Bakery',
-    tags: ['B2C', 'Fan Pages', 'F&B'],
-    url: '#'
   }
 ]
-

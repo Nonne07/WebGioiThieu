@@ -115,7 +115,7 @@ export default function ProjectsPage() {
                           <img 
                             src={project.coverImage} 
                             alt={project.title}
-                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out opacity-90 group-hover:opacity-100"
+                            className="w-full h-full object-contain p-2 sm:p-4 group-hover:scale-105 transition-transform duration-700 ease-out opacity-90 group-hover:opacity-100"
                           />
                         ) : (
                           <div className="absolute inset-0 flex items-center justify-center opacity-40 group-hover:scale-105 transition-transform duration-700 ease-out">
