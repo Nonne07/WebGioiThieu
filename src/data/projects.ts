@@ -29,5 +29,50 @@ export const projects: Project[] = [
     metrics: [
       { label: 'Mobile Traffic', value: '+85%' }
     ]
+  },
+  {
+    id: '3',
+    slug: 'sports-apparel-shop',
+    title: 'Sports Apparel Shop',
+    tags: ['E-commerce', 'Website', 'Retail'],
+    url: 'https://sports-apparel-shop.vercel.app/',
+    clientName: 'Sports Apparel',
+    description: 'Cửa hàng thương mại điện tử thể thao hiện đại với giao diện đẹp và trải nghiệm mua sắm mượt mà.',
+    coverImage: '/sports-apparel-shop.png',
+    servicesProvided: ['Web Development', 'UI/UX Design', 'E-commerce'],
+    metrics: [
+      { label: 'Conversion Rate', value: '+32%' }
+    ],
+    gallery: ['/sports-apparel-shop.png']
+  },
+  {
+    id: '4',
+    slug: 'lms-demo-gogitolab',
+    title: 'LMS Demo – Gogito Lab',
+    tags: ['Website', 'Education', 'LMS'],
+    url: 'https://lms-demo.gogitolab.com/',
+    clientName: 'Gogito Lab',
+    description: 'Hệ thống quản lý học tập (LMS) demo của Gogito Lab, hỗ trợ dạy và học trực tuyến toàn diện.',
+    coverImage: '/lms-demo-gogitolab.png',
+    servicesProvided: ['Web Development', 'System Integration', 'UI/UX Design'],
+    metrics: [
+      { label: 'Engagement', value: '+60%' }
+    ],
+    gallery: ['/lms-demo-gogitolab.png']
+  },
+  {
+    id: '5',
+    slug: 'sumting-lms',
+    title: 'Sumting LMS',
+    tags: ['Website', 'Education', 'LMS'],
+    url: 'https://sumting-lms.vercel.app/login',
+    clientName: 'Sumting',
+    description: 'Nền tảng học tập trực tuyến Sumting LMS với thiết kế hiện đại, dễ sử dụng cho cả giáo viên và học sinh.',
+    coverImage: '/sumting-lms.png',
+    servicesProvided: ['Web Development', 'UI/UX Design', 'Education Tech'],
+    metrics: [
+      { label: 'User Satisfaction', value: '94%' }
+    ],
+    gallery: ['/sumting-lms.png']
   }
 ]
