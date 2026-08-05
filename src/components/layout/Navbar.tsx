@@ -95,7 +95,7 @@ export default function Navbar() {
               <img 
                 src="/sern-icon.png" 
                 alt="SERN Logo" 
-                className="w-8 h-8 rounded-lg shadow-sm group-hover:shadow-[0_0_15px_rgba(255,90,0,0.4)] transition-all"
+                className="w-8 h-8 rounded-lg shadow-sm group-hover:shadow-[0_0_15px_rgba(255,90,0,0.4)] transition-all bg-white p-0.5"
               />
               <span>SERN<span className="text-brand-primary">.</span></span>
             </Link>

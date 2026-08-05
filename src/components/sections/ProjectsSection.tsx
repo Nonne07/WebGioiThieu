@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 export default function ProjectsSection() {
   const t = useTranslations()
-  const displayProjects = projects.slice(0, 4)
+  const displayProjects = [...projects.slice(0, 2), projects[4]].filter(Boolean)
 
   return (
     <section id="projects" className="bg-white py-28 px-6">
@@ -58,7 +58,7 @@ export default function ProjectsSection() {
                     <img 
                       src={project.coverImage} 
                       alt={project.title}
-                      className="w-full h-full object-contain p-2 sm:p-4 group-hover:scale-105 transition-transform duration-700 ease-out opacity-90 group-hover:opacity-100"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out opacity-90 group-hover:opacity-100"
                     />
                   ) : (
                     <div className="absolute inset-0 flex items-center justify-center opacity-40 group-hover:scale-105 transition-transform duration-700 ease-out">
