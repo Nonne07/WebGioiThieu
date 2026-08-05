@@ -92,9 +92,11 @@ export default function Navbar() {
               }}
               className="text-xl font-black tracking-tight z-50 relative transition-colors text-brand-black flex items-center gap-2 group"
             >
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-brand-primary to-[#ff7b00] flex items-center justify-center text-white shadow-sm group-hover:shadow-[0_0_15px_rgba(255,90,0,0.4)] transition-all">
-                <span className="text-sm">S</span>
-              </div>
+              <img 
+                src="/sern-icon.png" 
+                alt="SERN Logo" 
+                className="w-8 h-8 rounded-lg shadow-sm group-hover:shadow-[0_0_15px_rgba(255,90,0,0.4)] transition-all"
+              />
               <span>SERN<span className="text-brand-primary">.</span></span>
             </Link>
 
