@@ -110,12 +110,12 @@ export default function ProjectsPage() {
                   const cardContent = (
                     <>
                       {/* Image Placeholder Container */}
-                      <div className="aspect-[4/3] bg-[#f5f5f7] overflow-hidden relative border-b border-brand-border/50">
+                      <div className="aspect-[4/3] bg-white overflow-hidden relative border-b border-brand-border/30">
                         {project.coverImage ? (
                           <img 
                             src={project.coverImage} 
                             alt={project.title}
-                            className="w-full h-full object-contain p-2 sm:p-4 group-hover:scale-105 transition-transform duration-700 ease-out opacity-90 group-hover:opacity-100"
+                            className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-700 ease-out"
                           />
                         ) : (
                           <div className="absolute inset-0 flex items-center justify-center opacity-40 group-hover:scale-105 transition-transform duration-700 ease-out">
