@@ -74,5 +74,19 @@ export const projects: Project[] = [
       { label: 'User Satisfaction', value: '94%' }
     ],
     gallery: ['/sumting-lms.png']
+  },
+  {
+    id: '6',
+    slug: 'bach-hoa-online',
+    title: 'Bách Hóa Online',
+    tags: ['E-commerce', 'Website', 'Retail'],
+    url: 'https://bach-hoa-online-6cr9-mwwbzsxym-vuminhtuan5264-3760s-projects.vercel.app/login',
+    clientName: 'Bách Hóa Online',
+    description: 'Nền tảng thương mại điện tử mua sắm trực tuyến với giao diện thân thiện và tiện lợi.',
+    coverImage: '',
+    servicesProvided: ['Web Development', 'UI/UX Design', 'E-commerce'],
+    metrics: [
+      { label: 'Uptime', value: '99.9%' }
+    ]
   }
 ]
