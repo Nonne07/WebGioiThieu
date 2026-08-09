@@ -88,5 +88,19 @@ export const projects: Project[] = [
     metrics: [
       { label: 'Uptime', value: '99.9%' }
     ]
+  },
+  {
+    id: '7',
+    slug: 'w3-vietnam',
+    title: 'W3 VIETNAM',
+    tags: ['Website', 'Education', 'E-learning'],
+    url: 'https://w3-edu.vercel.app',
+    clientName: 'W3 VIETNAM',
+    description: 'Học lập trình qua các bài giảng tương tác thực tế, từ cơ bản đến nâng cao. Thực hành ngay trên trình duyệt mà không cần cài đặt.',
+    coverImage: '/w3-vietnam.png',
+    servicesProvided: ['Web Development', 'Education Tech'],
+    metrics: [
+      { label: 'Engagement', value: '+40%' }
+    ]
   }
 ]
