@@ -83,7 +83,7 @@ export const projects: Project[] = [
     url: 'https://bach-hoa-online-6cr9-mwwbzsxym-vuminhtuan5264-3760s-projects.vercel.app/login',
     clientName: 'Bách Hóa Online',
     description: 'Nền tảng thương mại điện tử mua sắm trực tuyến với giao diện thân thiện và tiện lợi.',
-    coverImage: '',
+    coverImage: '/bach-hoa-online.png',
     servicesProvided: ['Web Development', 'UI/UX Design', 'E-commerce'],
     metrics: [
       { label: 'Uptime', value: '99.9%' }
